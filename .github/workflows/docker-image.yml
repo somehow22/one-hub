@@ -94,7 +94,7 @@ jobs:
             ghcr.io/${{ github.repository_owner }}/onehub
           # generate Docker tags based on the following events/attributes
           tags: |
-            ghcr.io/${{ github.repository_owner }}/onehub:latest
+            latest
 
       - name: Build and push
         uses: docker/build-push-action@v4
